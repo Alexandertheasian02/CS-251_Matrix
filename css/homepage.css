@@ -1,0 +1,24 @@
+.buttons-level{
+    display: flex;
+	flex-wrap: wrap;
+	padding: 50px 50px 50px 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+    
+}
+
+.papers-icon{
+    max-width: 100%;
+}
+
+.level{
+    background-color: rgb(129, 129, 4);
+    transform:scale(1.6);
+	z-index:4;
+    left: 20px;
+    margin-left: 0px;
+    margin: 120px;
+    color: rgb(45, 47, 33);
+}
+

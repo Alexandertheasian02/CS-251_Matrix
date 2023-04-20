@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>EduMAX | Log In</title>
+        <link rel="icon" href="EduMAXicon.png">
+        <link rel="stylesheet" href="css/stylesignup&login.css">
+        <script src="js/script.js"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="banner">
+            <div class="navbar">
+                <a href="main.html"><img class="logo" src="EduMAX.png"></a>
+                <h1>LOG IN</h1>
+            </div>
+        </div>
+        <form>
+            <div class="form">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required>
+            </div>
+            <div class="form">
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <div class="buttons-login">
+                <button class="button" onclick="window.location.href='main.html';"><span></span>BACK</button>
+                <button class="button" onclick="checkFieldsLogin()"><span></span>LOG IN</button>
+                <button class="button" onclick="window.location.href='signup.html';"><span></span>SIGN UP</button>
+            </div>
+        </form>
+        <footer>
+            <br><br>
+            <img src="Foot.png" alt="footer logo" style = "float: right;">
+        </footer>
+    </body>
+</html>

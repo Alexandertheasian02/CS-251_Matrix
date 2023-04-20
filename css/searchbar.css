@@ -1,0 +1,44 @@
+*{
+	font-family: "Poppins" , sans-serif;
+}
+
+h1 {
+	text-align: center;
+}
+
+form {
+	position: relative;
+}
+
+#search {
+	width: 60%;
+	padding: 15px;
+	font-size: 16px;
+	margin-top: 5%;
+	margin-left: 18%;
+	border: none;
+	border-bottom: 2px solid #ccc;
+	border-radius: 25px;
+}
+
+#suggestions {
+	list-style-type: none;
+	padding: 0;
+	margin-left: 24%;
+	position: absolute;
+	top: 105%;
+	width: 50%;
+	background-color: white;
+	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+	display: none;
+	border-radius: 5px;
+}
+
+#suggestions li {
+	padding: 10px;
+	cursor: pointer;
+}
+
+#suggestions li:hover {
+	background-color: lightyellow;
+}

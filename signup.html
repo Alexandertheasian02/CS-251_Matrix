@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>EduMAX | Sign Up</title>
+        <link rel="icon" href="EduMAXicon.png">
+        <link rel="stylesheet" href="css/stylesignup&login.css">
+        <script src="js/script.js"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="banner">
+            <div class="navbar">
+                <a href="main.html"><img class="logo" src="EduMAX.png"></a>
+                <h1>SIGN UP</h1>
+            </div>
+        </div>
+        <form>
+            <div class="form">
+                <label for="firstname">First Name:</label>
+                <input type="text" id="firstname" name="firstname" required>
+            </div>
+            <div class="form">
+                <label for="lastname">Last Name:</label>
+                <input type="text" id="lastname" name="lastname" required>
+            </div>
+            <div class="form">
+                <label for="nic">NIC:</label>
+                <input type="text" id="nic" name="nic" required>
+            </div>
+            <div class="form">
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required>
+            </div>
+            <div class="form">
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <div class="form">
+                <label for="confirm-password">Confirm Password:</label>
+                <input type="password" id="confirm-password" name="confirm-password" required>
+            </div>
+            <div class="buttons-signup">
+                <button class="button" onclick="window.location.href='main.html'"><span></span>BACK</button>
+                <button class="button" onclick="checkFieldsSignup()"><span></span>SIGN UP</button>
+                <button class="button" onclick="window.location.href='signup.html'"><span></span>RESET</button>
+            </div>
+        </form>
+        <footer>
+            <br><br>
+            <img src="Foot.png" alt="footer logo" style = "float: right;">
+        </footer>
+    </body>
+</html>
