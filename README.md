@@ -11,7 +11,7 @@ This repository contains the source code for a software application designed to 
 * Cost-Effective: Provides a cost-effective alternative to purchasing physical past paper books.
 
 ## Technologies Used
-* Frontend: HTML, CSS, JavaScript, React
+* Frontend: HTML, CSS, JavaScript
 * Forums: Custom forum implementation
 * Backend: Node.js, Express.js (Under Development)
 * Database: MongoDB (Under Development)
