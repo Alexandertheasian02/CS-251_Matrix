@@ -1,6 +1,6 @@
 # EduMAX
 
-##Overview
+## Overview
 This repository contains the source code for a software application designed to facilitate easy access to past paper books for students in Sri Lanka. The application aims to provide a cost-effective and convenient learning method for students preparing for examinations by digitizing past paper books and enhancing the educational experience through additional features such as forums and SMS updates.
 
 ## Features
